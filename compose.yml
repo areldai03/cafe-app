@@ -7,7 +7,7 @@ services:
       - 3000:3000
     volumes:
       - type: bind
-        source: .
+        source: ./src
         target: /app
     environment:
       - WATCHPACK_POLLING=true
