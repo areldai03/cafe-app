@@ -1,0 +1,15 @@
+services:
+  cafe-app:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - 3000:3000
+    volumes:
+      - type: bind
+        source: .
+        target: /app
+    environment:
+      - WATCHPACK_POLLING=true
+    command: sh -c "npm run dev"
+
