@@ -34,7 +34,7 @@ const Slider = ()=>{
         }}
         className="mySwiper"
       >
-        <SwiperSlide><img src="cafe.jpg" alt="cafe" /></SwiperSlide>
+        <SwiperSlide><img src="delcafe.jpg" alt="cafe" /></SwiperSlide>
       <SwiperSlide><img src="coffee-cup.jpg" alt="cofee-beans" /></SwiperSlide>
       <SwiperSlide><img src="coffee.jpg" alt="coffee" /></SwiperSlide>
       <SwiperSlide><img src="latte-art.jpg" alt="latte-art" /></SwiperSlide>
