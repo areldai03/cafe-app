@@ -1,14 +1,14 @@
 // Import Swiper React components
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import {Autoplay} from 'swiper/modules'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
 
 const Slider = ()=>{
     return (
@@ -25,13 +25,13 @@ const Slider = ()=>{
             slidesPerView: 3,
           },
         }}
+        modules={[Autoplay]}
         loop={true}
-        slidesPerView={3}
+        autoplay={{delay:2}}
+        speed={3000} 
         pagination={{
           dynamicBullets: true,
         }}
-        
-        modules={[Pagination]}
         className="mySwiper"
       >
         <SwiperSlide><img src="cafe.jpg" alt="cafe" /></SwiperSlide>
