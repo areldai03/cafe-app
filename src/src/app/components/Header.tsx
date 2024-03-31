@@ -8,7 +8,7 @@ const Header = () => {
                 <ul className="flex gap-5 text-base md:text-xl">
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/menu">Menu</Link></li>
-                    <li>求人情報</li>
+                    <li><Link href="job-info">求人情報</Link></li>
                 </ul>
             </div>
         </header>
