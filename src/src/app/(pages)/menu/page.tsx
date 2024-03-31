@@ -12,7 +12,7 @@ const Menu = () => {
                 <div className="p-5 md:w-2/3">
                     <h2 className="border-y-2 border-amber-700 font-serif text-xl md:text-3xl">blended coffee</h2>
                     <div className="p-3">
-                        <p className="text-xs md:text-base">異次元のブレンド............................. ￥500</p>
+                        <p className="text-xs md:text-base">スペシャルブレンド................................. ￥500</p>
                     </div>
                     
                     <div className="p-3">
